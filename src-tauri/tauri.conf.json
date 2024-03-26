@@ -8,7 +8,7 @@
   },
   "package": {
     "productName": "kee",
-    "version": "0.1.0"
+    "version": "0.0.1"
   },
   "tauri": {
     "allowlist": {
@@ -29,7 +29,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "com.tauri.kee",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -51,7 +51,15 @@
       "csp": null
     },
     "updater": {
-      "active": false
+      "active": true,
+      "windows": {
+        "installMode": "passive"
+      },
+      "endpoints": [
+        "https://github.com/laojinbao/kee/releases/tag/v0.0.2"
+      ],
+      "dialog": true,
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDU5QUY5Nzk4NDA0RjMzMjUKUldRbE0wOUFtSmV2V2NxQjVWamltNGZGUlVWbDBoNlhpMUxpNHNUNGJVM3ovRS8xakljRkYxbDkK"
     },
     "windows": [
       {
