@@ -59,6 +59,8 @@ jobs:
           prerelease: false
 
   update:
+    permissions:
+      contents: write
     needs: publish-tauri
     runs-on: macos-latest
     steps:
