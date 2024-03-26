@@ -56,7 +56,7 @@
         "installMode": "passive"
       },
       "endpoints": [
-        "https://github.com/laojinbao/kee/releases/download/v0.0.4/latest.json"
+        "https://github.com/laojinbao/kee/releases/download/updater/update.json"
       ],
       "dialog": true,
       "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDU5QUY5Nzk4NDA0RjMzMjUKUldRbE0wOUFtSmV2V2NxQjVWamltNGZGUlVWbDBoNlhpMUxpNHNUNGJVM3ovRS8xakljRkYxbDkK"
