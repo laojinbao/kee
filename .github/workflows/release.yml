@@ -59,7 +59,7 @@ jobs:
           prerelease: false
 
   update:
-    needs: release
+    needs: publish-tauri
     runs-on: macos-latest
     steps:
       - name: Checkout repository
